@@ -11,10 +11,8 @@ A simple react native weather app using openweather API to display weather based
 ![app_demo](https://github.com/makkhay/FourSquareApi-Demo/blob/master/first_giffffffff.gif)
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="https://github.com/makkhay/FourSquareApi-Demo/blob/master/first.png" width="270" />
-   <img src="https://github.com/makkhay/FourSquareApi-Demo/blob/master/second.png" width="270" />
-  <img src="https://github.com/makkhay/FourSquareApi-Demo/blob/master/third.png" width="270" />
-
+  <img src="https://github.com/makkhay/WeatherApp_RN/blob/master/Screen_one.png" width="270" />
+   <img src="https://github.com/makkhay/WeatherApp_RN/blob/master/Screen_two.png" width="270" />
 </div>
 
 
