@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, TextInput, StyleSheet, ImageBackground} from 'react-native';
+import {View, TextInput, StyleSheet, ImageBackground, Text} from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 import {Button} from 'react-native-elements'
 import List from './List';
@@ -26,6 +26,7 @@ class Search extends React.Component {
     render() {
             return (
                 <ImageBackground source={require('../Assets/background.png')} style={styles.homeWall} >
+                <Text style={styles.textTitle} >Check 5-day Weather</Text>
                 <View style={styles.viewSearch}>
                     <TextInput style={styles.searchInput}
                     value={this.state.city}
@@ -72,15 +73,28 @@ const styles = StyleSheet.create({
       borderColor: '#ffffff',
       borderWidth: 2,
       padding: 10,
-      margin: 20,
-      marginTop: 30,
+      margin: 120,
+      marginTop: 90,
       fontSize: 20,
       textAlign: 'center',
       borderRadius: 3,
       color: '#f1f1f1'
   },
+
+  textTitle:{
+    width: '80%',
+    height: 40,
+    padding: 10,
+    margin: 40,
+    marginTop: 180,
+    fontSize: 24,
+    textAlign: 'center',
+    justifyContent: 'center',
+    color: '#f1f1f1',
+    fontWeight: "bold"
+},
   ButtonContainer: {
-    marginTop: 40
+    marginBottom: 180
 }
 
 });
