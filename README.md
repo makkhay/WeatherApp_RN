@@ -6,10 +6,7 @@ A simple react native weather app using openweather API to display weather based
 - Users can view 5-day weather forecast based on the zip code
 
 
-## Demo and Screenshots
-
-![app_demo](https://github.com/makkhay/FourSquareApi-Demo/blob/master/first_giffffffff.gif)
-
+##  Screenshots
 <div style={{display: flex; flex-direction: row}}>
   <img src="https://github.com/makkhay/WeatherApp_RN/blob/master/Screen_one.png" width="270" />
    <img src="https://github.com/makkhay/WeatherApp_RN/blob/master/Screen_two.png" width="270" />
