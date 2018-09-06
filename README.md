@@ -16,9 +16,11 @@ A simple react native weather app using openweather API to display weather based
 ## Getting started
 
 ```
-git clone https://github.com/makkhay/WeatherApp_RN.git
+- git clone https://github.com/makkhay/WeatherApp_RN.git
+- npm install 
+- npm start or run from Expo XDE 
 
-Open it using android studio and run on the emulator 
+
 ```
 
 
